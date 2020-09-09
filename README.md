@@ -1,5 +1,7 @@
 # django_projects
 
+edit the WGSI Configuration File 
+
 ```python
 import os
 import sys
