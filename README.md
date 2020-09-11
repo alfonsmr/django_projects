@@ -21,13 +21,17 @@ Una vez entregada y funcionando la tarea se hace un merge a Development
 depues se hace merge a master
 
 Listar ramas de git para el proyecto disponibles
-git branch
+
+```git branch```
 
 Queremos crear una nueva rama desde "development" por lo que nos movemos a development
-git checkout development
+
+```git checkout development```
 
 Creamos la rama a partir de development con el nombre que queramos, p.e. "feature_branch"
-git checkout -b feature_branch development
+
+```git checkout -b feature_branch development```
 
 Conectamos la rama local al servidor remoto
-git push --set-upstream origin feature_branch
+
+```git push --set-upstream origin feature_branch```
