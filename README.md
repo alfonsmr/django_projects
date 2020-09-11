@@ -1,6 +1,6 @@
 # django_projects
 
-edit the WGSI Configuration File 
+##edit the WGSI Configuration File 
 
 ```python
 import os
@@ -14,7 +14,7 @@ from django.core.wsgi import get_wsgi_application
 from django.contrib.staticfiles.handlers import StaticFilesHandler
 application = StaticFilesHandler(get_wsgi_application())
 ```
-Cómo trabajar con git branches
+## Cómo trabajar con git branches
 
 Trabajaremos en la rama Development, haciendo nuevas ramas a partir de esta para cada tarea
 Una vez entregada y funcionando la tarea se hace un merge a Development
