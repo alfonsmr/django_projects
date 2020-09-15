@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [ '*' ]
 
 INSTALLED_APPS = [
     'home.apps.HomeConfig',
+    'autos.apps.AutosConfig',
     'hello.apps.HelloConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
